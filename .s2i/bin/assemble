@@ -58,7 +58,7 @@ mv ${APP_ROOT}/src/gateway /opt/app-root/gateway
 
 mv ${APP_ROOT}/src/*.sh /opt/app-root/bin
 
-pip install boto3==1.15.16 s3cmd s3contents hybridcontents
+pip install boto3==1.15.16 s3cmd s3contents pgcontents
 
 # Install oc command line client for OpenShift cluster.
 
