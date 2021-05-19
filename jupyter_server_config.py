@@ -32,7 +32,7 @@ if os.path.exists(image_config_file):
 #######################
 import boto3
 from s3contents import S3ContentsManager
-from hybridcontents import HybridContentsManager
+from pgcontents.hybridmanager import HybridContentsManager
 from notebook.services.contents.filemanager import FileContentsManager
 
 # We use HybridContentsManager (https://github.com/viaduct-ai/hybridcontents),
